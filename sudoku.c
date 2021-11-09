@@ -8,14 +8,6 @@
 // is_val_valid function will call the 3 previous functions and checks if the value appears in the row, column, or 3x3 zone. Lastly, 
 // the function solve_sudoku uses the backtracking and recursion algorithm given to us in order to finally solve the sudoku puzzle.  
 
-// partners: wtegge2, jcruda2, ddelca3
-
-//-------------------------------------------------------------------------------------------------
-// Start here to work on your MP7
-//-------------------------------------------------------------------------------------------------
-
-// You are free to declare any private functions if needed.
-
 // Function: is_val_in_row
 // Return true if "val" already existed in ith row of array sudoku.
 int is_val_in_row(const int val, const int i, const int sudoku[9][9]) {	
